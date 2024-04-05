@@ -1,6 +1,7 @@
 
 # 1. Share an example of using the command with no arguments.
 
+
 ## Command `cd`
 <img width="291" alt="Screen Shot 2024-04-03 at 5 32 21 PM" src="https://github.com/Aress77/cse15l-lab-reports/assets/122946762/4d3526f6-c0da-4cf6-84b7-5b1a7d66ccc4">
 
