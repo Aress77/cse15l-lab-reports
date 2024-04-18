@@ -5,7 +5,7 @@
 <img width="291" alt="Screen Shot 2024-04-03 at 5 32 21 PM" src="https://github.com/Aress77/cse15l-lab-reports/assets/122946762/4d3526f6-c0da-4cf6-84b7-5b1a7d66ccc4">
 
 1. Absolute path before command: `/Users/ahri/Desktop`
-2. The output is empty because we didn't change any directory in the argument. 
+2. 'cd' without arguments takes us to the defult home directory. 
 3. This is not an error.
 
 ## Command `ls`
