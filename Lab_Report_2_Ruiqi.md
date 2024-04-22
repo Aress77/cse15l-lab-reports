@@ -40,6 +40,8 @@ Values of any relevant fields: Current value for `chat` is `"jpolitz: Hello \n"`
 <img width="345" alt="Screen Shot 2024-04-21 at 5 42 28 PM" src="https://github.com/Aress77/cse15l-lab-reports/assets/122946762/0f2ce312-f046-4013-8ad3-1b5ff8ca94c3">
 
 ### 2. 
+<img width="384" alt="Screen Shot 2024-04-21 at 6 59 19 PM" src="https://github.com/Aress77/cse15l-lab-reports/assets/122946762/3842fcaf-ad23-41bd-a022-a8e54a575216">
+
 
 ### 3.
 <img width="793" alt="Screen Shot 2024-04-21 at 6 55 35 PM" src="https://github.com/Aress77/cse15l-lab-reports/assets/122946762/53ed42c1-f766-41bc-8350-59ce98c6b889">
