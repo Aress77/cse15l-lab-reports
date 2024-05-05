@@ -14,7 +14,7 @@ For the program, I used the `Server.java` file provided in class as a basis.
 The `public String handleRequest(URI url)` method is called. 
 ### What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 Relevant arguments: <br/>
-`URI url`: The URI object passed to the handleRequest method. The request should be`/add-message?s=Hello&user=jpolitz'.<br/><br/> 
+`URI url`: The URI object passed to the handleRequest method. The request should be`/add-message?s=Hello&user=jpolitz`.<br/><br/> 
 Relevant fields: <br/>
 `chat`: Stores the user and chat messages. <br/><br/> 
 Values of any relevant fields: Initial value for `chat` is `""`. <br/>
@@ -27,7 +27,7 @@ When we `/add-message` with `s=message` and `user=username` parameters, it will 
 The `public String handleRequest(URI url)` method is called. 
 ### What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 Relevant arguments: <br/>
-`URI url`: The URI object passed to the handleRequest method. The request we are adding should be`/add-message?s=How are you&user=yash'.<br/><br/> 
+`URI url`: The URI object passed to the handleRequest method. The request we are adding should be`/add-message?s=How are you&user=yash`.<br/><br/> 
 Relevant fields: <br/>
 `chat`: Stores the user and chat messages. <br/><br/> 
 Values of any relevant fields: Current value for `chat` is `"jpolitz: Hello \n"`.
