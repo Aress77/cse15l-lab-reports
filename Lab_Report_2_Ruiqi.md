@@ -46,3 +46,6 @@ Values of any relevant fields: Current value for `chat` is `"jpolitz: Hello \n"`
 
 ### 3.
 In weeks 2 and 3, I learned how to use SSH keys to login remote server without password on my laptop. I also learned how to build, run and make changes to a server in terminal. 
+
+
+*The gray box around my code dispeared when I download this file, and I am not sure how to fix it:( 
