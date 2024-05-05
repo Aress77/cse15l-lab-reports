@@ -19,7 +19,7 @@ Relevant fields: <br/>
 `chat`: Stores the user and chat messages. <br/><br/> 
 Values of any relevant fields: Initial value for `chat` is `""`. <br/>
 ### How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-When we `/add-message` with `s=message` and `user=username` parameters, it will append the username and message user inputed to the String `chat`. `chat` will contain `"jpolitz: Hello \n"`. <br/><br/> 
+When we `/add-message` with `s=message` and `user=username` parameters, it will append the username and message user inputed to the String `chat`. In this case, we have `s=Hello` and `user=jpolitz`. `chat` will contain `"jpolitz: Hello \n"`. <br/><br/> 
 ## `/add-message?s=How are you&user=yash`
 <img width="626" alt="Screen Shot 2024-04-21 at 3 11 29 PM" src="https://github.com/Aress77/cse15l-lab-reports/assets/122946762/c821fb2c-375c-426d-a685-28e067e7ad8e">
 
@@ -27,12 +27,12 @@ When we `/add-message` with `s=message` and `user=username` parameters, it will 
 The `public String handleRequest(URI url)` method is called. 
 ### What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 Relevant arguments: <br/>
-`URI url`: The URI object passed to the handleRequest method. The request we are adding should be`/add-message?s=How are you&user=yash`.<br/><br/> 
+`URI url`: The URI object passed to the handleRequest method. The request we are adding should be`/add-message?s=How%20are%20you&user=yash`.<br/><br/> 
 Relevant fields: <br/>
 `chat`: Stores the user and chat messages. <br/><br/> 
 Values of any relevant fields: Current value for `chat` is `"jpolitz: Hello \n"`.
 ### How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
- When we `/add-message` with `s=message` and `user=username` parameters, it will append the username and message user inputed to the String `chat`. `chat` will now contain `"jpolitz: Hello \n yash: How are you \n"`.<br/><br/> 
+ When we `/add-message` with `s=message` and `user=username` parameters, it will append the username and message user inputed to the String `chat`. In this case, we have `s=How%20are%20you` and `user=yash`. `chat` will now contain `"jpolitz: Hello \n yash: How are you \n"`.<br/><br/> 
 
 # Part 2
 
