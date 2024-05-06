@@ -185,5 +185,5 @@ ahri@Ahris-Air ~ % find ./Documents/Spring\ 2024 -maxdepth 1 -print
 ```
 It is useful when we do not want to search everything inside a directory. This command limits the depth of our searches. 
 
-I used `man find` in terminal to find command line options for `find`.
+*I used `man find` in terminal to find command line options for `find`.
 
