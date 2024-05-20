@@ -50,7 +50,7 @@ Then I pressed enter to let the terminal execute the command.
 
 ## 2. Keys pressed: 
 `<v> <i> <m> <space> <capslock> <l> <tab> <.> <j> <tab> <return>`
-`<:> <4> <4> <e> <s> <2> <esc> <:> <w> <q>`
+`<:> <4> <4> <e> <s> <2> <esc> <:> <w> <q> <return>`
 
 ## 3. Summarize the Commands:
 
@@ -64,15 +64,26 @@ I typed `s` to delete the `1` in the word `index1` and I typed `2` to change the
 
 ## 1. 
 
+<img width="409" alt="Screen Shot 2024-05-19 at 9 07 26 PM" src="https://github.com/Aress77/cse15l-lab-reports/assets/122946762/037b3654-b01e-4350-9934-7864855fbf6f">
+
 ## 2. Keys pressed: 
+`<up> <up> <return>`
 
 ## 3. Summarize the Commands:
+I pressed up arrow twice to get to the command I entered previously, which is `bash test.sh` and pressed return to execute the command. 
 
 
 # Step 9
 
 ## 1. 
+<img width="577" alt="Screen Shot 2024-05-19 at 9 26 19 PM" src="https://github.com/Aress77/cse15l-lab-reports/assets/122946762/224cb9c3-bbd7-4775-8b5f-3b572d847b06">
+<img width="793" alt="Screen Shot 2024-05-19 at 9 24 52 PM" src="https://github.com/Aress77/cse15l-lab-reports/assets/122946762/ef5b576f-b6a6-4fcc-83f4-3d46f7b6099b">
+<img width="1139" alt="Screen Shot 2024-05-19 at 9 26 00 PM" src="https://github.com/Aress77/cse15l-lab-reports/assets/122946762/a9fe4a53-d75d-4448-b81b-3353edac43af">
 
 ## 2. Keys pressed: 
+`<g> <i> <t> <space> <c> <o> <m> <m> <i> <t> <-> <m> <space> <"> <e> <d> <i> <t> <e> <d> <"> <enter>`
+`<g> <i> <t> <space> <p> <u> <s> <h> <space> <-> <f> <enter>`
 
 ## 3. Summarize the Commands:
+I typed `git commit -m "edited"` to commit my changes to the file `ListExamples.java`. Then I pushed my changes to github using `git push -f`.
+
